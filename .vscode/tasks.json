@@ -6,7 +6,8 @@
         {
             "label": "manim",
             "type": "shell",
-            "command": "manim -p -ql [$file]"
+            "command": "manim -p -ql ${file}",
+            "problemMatcher": []
         }
     ]
 }

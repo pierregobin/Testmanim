@@ -109,7 +109,6 @@ class AddUpdater1(Scene):
 
         # Update function
         def update_text(obj):
-            text.c
             obj.next_to(dot,DOWN,buff=SMALL_BUFF)
 
         # Add update function to the objects
